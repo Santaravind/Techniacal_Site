@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
       isScrolled 
-        ? 'bg-white/50 backdrop-blur-md shadow-lg py-3' 
+        ? 'bg-white/20 backdrop-blur-md shadow-lg py-3' 
         : 'bg-transparent py-6'
     }`}>
       <div className="container mx-auto px-6">
@@ -86,9 +86,9 @@ const Header = () => {
                 {item}
               </a>
             ))}
-            <button className="w-full bg-linear-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-full font-medium hover:from-blue-600 hover:to-purple-700 transition-all duration-300">
+            {/* <button className="w-full bg-linear-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-full font-medium hover:from-blue-600 hover:to-purple-700 transition-all duration-300">
               Get Started
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
