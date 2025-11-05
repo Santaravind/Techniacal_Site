@@ -119,30 +119,7 @@ const Service = () => {
           })}
         </div>
 
-        {/* CTA Section */}
-        {/* <div className="text-center mt-16">
-          <div className="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 p-8 max-w-2xl mx-auto hover:border-white/20 transition-all duration-500">
-            <h3 className="text-2xl font-bold text-white mb-4">
-              Ready to Transform Your Digital Presence?
-            </h3>
-            <p className="text-gray-300 mb-6">
-              Let's discuss how our services can help your business grow and succeed in the digital world.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <button className="group relative bg-linear-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-blue-500/25 overflow-hidden">
-                <span className="relative z-10">Get Started Today</span>
-                <div className="absolute inset-0 bg-linear-to-r from-blue-600 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </button>
-              
-              <button className="group border-2 border-white/30 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/10 hover:border-white/50 transform hover:scale-105 transition-all duration-300 backdrop-blur-sm">
-                <span className="flex items-center space-x-2">
-                  <span>Learn More</span>
-                  <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
-                </span>
-              </button>
-            </div>
-          </div>
-        </div> */}
+       
       </div>
     </section>
   );

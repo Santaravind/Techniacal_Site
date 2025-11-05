@@ -45,20 +45,7 @@ const HeroSection = () => {
             Expert Digital Solutions for the Modern Era
           </p>
 
-          {/* CTA Buttons */}
-          {/* <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <button className="group relative bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-blue-500/25 overflow-hidden">
-              <span className="relative z-10">Start Your Journey</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            </button>
-            
-            <button className="group border-2 border-white/30 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/10 hover:border-white/50 transform hover:scale-105 transition-all duration-300 backdrop-blur-sm">
-              <span className="flex items-center space-x-2">
-                <span>Learn More</span>
-                <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
-              </span>
-            </button>
-          </div> */}
+         
          <Client/>
          
         </div>

@@ -4,7 +4,8 @@ import HeroSection from './componet/HeroSection'
 import Section from './componet/Section'
 
 import Owner from './componet/Owner'
-import Service from './componet/Service'
+// import Service from './componet/Service'
+import ServicesSection from './componet/ServiceSection'
 
 
 function App() {
@@ -14,9 +15,10 @@ function App() {
     <Header/>
     <HeroSection/>
     <Section/>
-    <Service/>
+    {/* <Service/> */}
+     <ServicesSection/>
          <Owner/>
-     
+    
     </>
   )
 }
